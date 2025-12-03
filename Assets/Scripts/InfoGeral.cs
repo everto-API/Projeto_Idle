@@ -12,7 +12,7 @@ public class InfoGeral : MonoBehaviour
     
     // === CONFIGURAÇÃO DA PRESSÃO ===
     public double pressaoMaxima = 10f; // Reduzido para encher rápido
-    public float taxaGeracaoBase = 2f; // Aumentado para 2 por segundo  
+    public float taxaGeracaoBase = 10f; // Aumentado para 2 por segundo  
     public float multiplicadorBuff = 1f;
     
     void Awake() 

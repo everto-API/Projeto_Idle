@@ -3,11 +3,6 @@ using UnityEngine;
 public class Cidade : MonoBehaviour
 {
     public double vidaAtual = 500;
-    
-    void Start()
-    {
-        Debug.Log($"🏙️ Cidade iniciada com {vidaAtual} de vida");
-    }
 
     public void ReceberDano(double dano)
     {
