@@ -153,8 +153,8 @@ MonoBehaviour:
   dinheiroTexto: {fileID: 0}
   alvoCidade: {fileID: 1413790286}
   danoBase: 50
-  alturaArco: 20.9
-  velocidadeVoo: 3
+  velocidadeProjetil: 0.4
+  forcaParabola: 4
   tamanhoProjetil: 3.28
   indicadorPressaoCheia: {fileID: 0}
   botaoTesteEncherPressao: {fileID: 0}
