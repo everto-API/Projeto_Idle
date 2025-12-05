@@ -7,8 +7,8 @@ public class InfoGeral : MonoBehaviour
     // === DADOS DO JOGO ===
     public double obsidiana = 0;
     public double pressao = 0;
-    public double dano = 1.0;
-    public double vida_da_ilha = 100;
+    public double dano = 5.0;
+    public double vida_da_ilha = 10000;
     
     // === CONFIGURAÇÃO DA PRESSÃO ===
     public double pressaoMaxima = 10f; // Reduzido para encher rápido
