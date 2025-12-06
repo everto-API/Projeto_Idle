@@ -7,7 +7,7 @@ public class ProgressoOffline : MonoBehaviour
     public static ProgressoOffline Instance;
 
     public const string LastQuitKey = "Ultima Saida";
-    private const double TempoLimiteReconstrucaoSegundos = 1800.0; // 30 minutos offline → cidade reconstrói
+    private const double TempoLimiteReconstrucaoSegundos = 1800.0; // 30 minutos offline → cidade reconstrói 
 
     void Awake()
     {
@@ -90,7 +90,7 @@ public class ProgressoOffline : MonoBehaviour
 
         if (segundos > TempoLimiteReconstrucaoSegundos)
         {
-            cidade.vidaAtual = VidaTotalCidade; //restaura a vida da cidade
+            cidade.vidaAtual = VidaTotalCidade; 
             cidade.GetComponent<SpriteRenderer>().color = Color.white;
 
             Debug.Log("Cidade se reconstruiu enquanto você estava fora! Vida restaurada.");
@@ -101,8 +101,6 @@ public class ProgressoOffline : MonoBehaviour
             double danoOffline = minutosOffline * info.dano;
 
             cidade.ReceberDano(danoOffline);
-
-            // Debug.Log removido para evitar duplicidade
         }
 
         Debug.Log($"❤️ Vida final da cidade após cálculo offline: {cidade.vidaAtual:F1}");

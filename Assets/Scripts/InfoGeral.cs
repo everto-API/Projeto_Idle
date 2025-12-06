@@ -15,6 +15,7 @@ public class InfoGeral : MonoBehaviour
     public float taxaGeracaoBase = 10f; // Aumentado para 2 por segundo  
     public float multiplicadorBuff = 1f;
     
+    
     void Awake() 
     {
         if (Instance == null)
