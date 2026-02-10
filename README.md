@@ -1,5 +1,7 @@
-Repositório para o protótipo "Idle Vulcan" feito durante o processo seletivo da WASD - 2025.2
+### IDLE VULCAN PROTOTIPE
 
-Jogo feito pela Unity 6 com o editor 6000.2.8f1
+Made for the WASD seletive process during 2025.2
 
-Sinta-se a vontade para mexer com este protótipo!
+Made with *Unity 6* and *6000.2.8f1* editor
+
+Feel free to use this repository!
